@@ -1,0 +1,27 @@
+body {
+    background: #2c3e50;
+    color: white;
+    font-family: monospace;
+}
+
+.btn {
+    font-weight:bolder;
+    letter-spacing: .2em;
+}
+
+h3 {
+    background-color:#333;
+    padding:12px;
+    border-top-right-radius: 20px;
+    font-weight:bolder;
+    letter-spacing: .1em;
+}
+
+.table-striped > tbody > tr:nth-child(2n+1) > th,
+.table-striped > tbody > tr:nth-child(2n+1) > td{
+    background-color: #34495e;
+}
+
+.th {
+    border-top:none !important;
+}
